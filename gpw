@@ -1,0 +1,73 @@
+#!/usr/bin/env perl
+
+use Mojolicious::Lite;
+use Mojo::File qw(path);
+use Encode;
+
+plugin 'JSONConfig';
+
+app->secrets( app->config('secrets') // ['german-perl-workshop-secrets'] );
+
+my $static_path  = path( app->home )->child('static');
+my %static_pages = map{
+     my $key = $_->basename;
+     $key =~ s/\.html\z//;
+     $key =~ s/[^A-Za-z0-9-]//;
+
+     $key => $_;
+}grep{
+     /\.html\z/
+}@{ $static_path->list->to_array || [] };
+
+helper all_years => sub {
+    sort grep{ /\A[0-9]{4}\z/ }keys %static_pages;
+};
+
+get '/' => sub {
+    my $c = shift;
+    return _render_static( $c, 'index' );
+};
+
+get '/:static' => [ static => [keys %static_pages] ] => sub {
+    my ($c) = @_;
+    return _render_static( $c, $c->param('static') );
+};
+
+any '*' => sub {
+  my $c = shift;
+
+  log_request( $c );
+
+  $c->render( json => { success => 1 } );
+};
+
+app->start;
+
+sub _render_static {
+    my ($c, $page) = @_;
+
+    my $path = $static_pages{$page};
+
+    if ( !$path ) {
+        return $c->reply->not_found;
+    }
+
+    $c->stash( content => decode_utf8($path->slurp) );
+    $c->render('index');
+}
+
+sub log_request {
+    my ($c) = @_;
+
+    my $req = $c->tx->req;
+
+    my $data = {
+        body   => $req->body,
+        method => $req->method,
+        url    => $req->url->to_string,
+        params => $req->params->to_hash,
+    };
+
+    $c->app->log->error( $c->dumper( $data ) );
+}
+
