@@ -68,6 +68,7 @@
             <fieldset class="form-group"><!--style="display: inline-block;float: right;"-->
               <label for="archiv">Workshop:</label>    
               <select class="selectpicker form-control" id="archiv"><!--style="display: inline-block;width: auto;"-->
+              <option value="">-</option>
               <% for my $year ( all_years() ) { %>
                 <option value="/<%= $year %>"><%= $year %></option>
               <% } %>
