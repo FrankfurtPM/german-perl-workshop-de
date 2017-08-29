@@ -20,7 +20,7 @@ my %static_pages = map{
 }@{ $static_path->list->to_array || [] };
 
 helper all_years => sub {
-    sort grep{ /\A[0-9]{4}\z/ }keys %static_pages;
+    reverse sort grep{ /\A[0-9]{4}\z/ }keys %static_pages;
 };
 
 get '/' => sub {
