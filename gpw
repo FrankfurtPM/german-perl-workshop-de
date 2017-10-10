@@ -12,7 +12,7 @@ my $static_path  = path( app->home )->child('static');
 my %static_pages = map{
      my $key = $_->basename;
      $key =~ s/\.html\z//;
-     $key =~ s/[^A-Za-z0-9-]//;
+     $key =~ s/[^A-Za-z0-9_-]//;
 
      $key => $_;
 }grep{
