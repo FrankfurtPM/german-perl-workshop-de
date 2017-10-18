@@ -33,6 +33,20 @@ get '/:static' => [ static => [keys %static_pages] ] => sub {
     return _render_static( $c, $c->param('static') );
 };
 
+get '/:language/*year' => sub {
+    my ($c) = @_;
+
+    my ($year) = $c->param('year') =~ m{\A([0-9]{4})};
+
+    if ( $static_pages{$year} ) {
+        return _render_static( $c, $year );
+    }
+    else {
+        log_request( $c );
+        return $c->reply->not_found;
+    }
+};
+
 any '*' => sub {
   my $c = shift;
 
