@@ -40,6 +40,55 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<script type='application/ld+json'>
+{
+  "@context": "http://www.schema.org",
+  "@type": "Event",
+  "name": "Deutscher Perl-Workshop, München 2019",
+  "url": "https://act.perlconference.org/gpw2019/",
+  "description": "Der Deutsche Perl-Workshop ist eine jährlich in Deutschland stattfindende Konferenz von und für Entwickler der Programmiersprache Perl.",
+  "startDate": "2019-03-06T09:30",
+  "endDate": "2019-03-08T19:00",
+  "location": {
+    "@type": "Place",
+    "name": "Hochschule München",
+    "sameAs": "https://www.hm.edu/",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Lothstr. 34",
+      "addressLocality": "München",
+      "postalCode": "D-80335",
+      "addressCountry": "Deutschland"
+    }
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": 350,
+    "lowPrice": 50,
+    "offerCount": 3,
+    "offers": [{
+      "@type": "Offer",
+      "description": "Ticket",
+      "url": "https://act.perlconference.org/gpw2019/pricing.html",
+      "price": "150",
+      "priceCurrency": "EUR"
+    },{
+      "@type": "Offer",
+      "description": "Firmenticket",
+      "url": "https://act.perlconference.org/gpw2019/pricing.html",
+      "price": "350",
+      "priceCurrency": "EUR"
+    },{
+      "@type": "Offer",
+      "description": "Studententicket",
+      "url": "https://act.perlconference.org/gpw2019/pricing.html",
+      "price": "50",
+      "priceCurrency": "EUR"
+    }]
+  }
+}
+ </script>
+
   </head>
 
 
@@ -54,8 +103,8 @@
           <h1 id="site_name" class="col-xs-7">Deutscher Perl-Workshop</h1>
         </a>
       </div>
-  
-	  
+
+
 
       <div id="menustorage" class="hiddenx">
       	<div class="elemWrapper">
@@ -65,9 +114,9 @@
 
 
       	</div>
-      </div>	  
- 	 
-       
+      </div>
+
+
     </header>
 
 
@@ -80,10 +129,10 @@
       <aside id="sidebar" class="col-sm-3 col-md-4">
 
         <section id="archivnav" class="elemWrapper archivWrapper">
-          <h2>Archiv</h2>  
-          <form id="archiv_form" action="#">  
+          <h2>Archiv</h2>
+          <form id="archiv_form" action="#">
             <fieldset class="form-group"><!--style="display: inline-block;float: right;"-->
-              <label for="archiv">Jahr auswählen</label>    
+              <label for="archiv">Jahr auswählen</label>
               <select class="selectpicker form-control" id="archiv"><!--style="display: inline-block;width: auto;"-->
               <option value="">-</option>
               <% for my $year ( all_years() ) { %>
@@ -92,7 +141,7 @@
               </select>
             </fieldset>
           </form>
-        </section> 
+        </section>
 
 
       </aside>
@@ -123,9 +172,9 @@
     <script type="text/javascript" src="/js/jquery.socialshareprivacy.js" defer></script>
     <script type="text/javascript" src="/js/jquery.cookie.js" defer></script>
     <script type="text/javascript" src="/js/base.js" defer></script>
-    <script type="text/javascript" src="/js/act.js" defer></script>	
-	
+    <script type="text/javascript" src="/js/act.js" defer></script>
+
   </body>
 </html>
 
- 
+
