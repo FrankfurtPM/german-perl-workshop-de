@@ -2,27 +2,44 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no"> 
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>Deutscher Perl-Workshop</title>
     <meta name="description"      content="Der Deutsche Perl-Workshop ist eine jährlich in Deutschland stattfindende Konferenz von und für Entwickler der Programmiersprache Perl.">
     <meta name="keywords"         content="Perl,Workshop,Konferenz,Deutschland,Entwickler,Programmiersprache">
     <meta name="author"           content="Frankfurt.pm, Renee Baecker">
 
+    <link rel="canonical" href="http://act.perlconference.org/gpw2019/">
+    <!-- Document Metadata -->
+    <!--
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://act.perlconference.org/gpw2019/images/logos/lrg-conf-logo.png"/>
+    -->
+    <meta property="og:title" content="Deutscher Perl-Workshop 2019" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://act.perlconference.org/gpw2019" />
+    <!--
+    <meta property="og:image" content="https://act.perlconference.org/gpw2019/images/logos/lrg-conf-logo.png" />
+    -->
+    <!-- OpenId -->  <!-- Atom news feed -->
+    <link rel="alternate" type="application/atom+xml" title="Deutscher Perl-Workshop 2019"
+          href="https://act.perlconference.org/gpw2019/atom/de.xml" />
+
 
   	<!-- Latest compiled and minified CSS -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   	<!-- Optional theme -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-    <script type="text/javascript" src="/js/modernizr.js"></script>	
+    <script type="text/javascript" src="/js/modernizr.js"></script>
   	<!--removed because included in bootstrap <link rel="stylesheet" type="text/css" href="styles/normalize.css">-->
     <link rel="stylesheet" type="text/css" href="/css/base.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->    
+    <![endif]-->
+
   </head>
 
 
