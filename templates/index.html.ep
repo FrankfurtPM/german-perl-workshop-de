@@ -44,22 +44,23 @@
 {
   "@context": "http://www.schema.org",
   "@type": "Event",
-  "name": "Deutscher Perl-Workshop, München 2019",
-  "url": "https://act.perlconference.org/gpw2019/",
+  "name": "Deutscher Perl-Workshop, München 2020",
+  "url": "https://act.perlconference.org/gpw2020/",
   "description": "Der Deutsche Perl-Workshop ist eine jährlich in Deutschland stattfindende Konferenz von und für Entwickler der Programmiersprache Perl.",
-  "startDate": "2019-03-06T09:30",
-  "endDate": "2019-03-08T19:00",
-  "location": {
-    "@type": "Place",
-    "name": "Hochschule München",
-    "sameAs": "https://www.hm.edu/",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Lothstr. 34",
-      "addressLocality": "München",
-      "postalCode": "D-80335",
-      "addressCountry": "Deutschland"
-    }
+  "startDate": "2020-03-04T09:30",
+  "endDate": "2020-03-06T19:00"
+  //"endDate": "2020-03-06T19:00",
+  //"location": {
+  //  "@type": "Place",
+  //  "name": "xHochschule München",
+  //  "sameAs": "https://www.hm.edu/",
+  //  "address": {
+  //    "@type": "PostalAddress",
+  //    "streetAddress": "Lothstr. 34",
+  //    "addressLocality": "München",
+  //    "postalCode": "D-80335",
+  //    "addressCountry": "Deutschland"
+  //  }
   },
   "offers": {
     "@type": "AggregateOffer",
@@ -69,19 +70,19 @@
     "offers": [{
       "@type": "Offer",
       "description": "Ticket",
-      "url": "https://act.perlconference.org/gpw2019/pricing.html",
+      "url": "https://act.perlconference.org/gpw2020/pricing.html",
       "price": "150",
       "priceCurrency": "EUR"
     },{
       "@type": "Offer",
       "description": "Firmenticket",
-      "url": "https://act.perlconference.org/gpw2019/pricing.html",
+      "url": "https://act.perlconference.org/gpw2020/pricing.html",
       "price": "350",
       "priceCurrency": "EUR"
     },{
       "@type": "Offer",
       "description": "Studententicket",
-      "url": "https://act.perlconference.org/gpw2019/pricing.html",
+      "url": "https://act.perlconference.org/gpw2020/pricing.html",
       "price": "50",
       "priceCurrency": "EUR"
     }]
