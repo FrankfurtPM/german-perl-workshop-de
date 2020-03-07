@@ -16,15 +16,15 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:image" content="https://act.perlconference.org/gpw2019/images/logos/lrg-conf-logo.png"/>
     -->
-    <meta property="og:title" content="Deutscher Perl-Workshop 2019" />
+    <meta property="og:title" content="Deutscher Perl-Workshop 2021" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://act.perlconference.org/gpw2019" />
+    <meta property="og:url" content="https://act.yapc.eu/gpw2021" />
     <!--
     <meta property="og:image" content="https://act.perlconference.org/gpw2019/images/logos/lrg-conf-logo.png" />
     -->
     <!-- OpenId -->  <!-- Atom news feed -->
-    <link rel="alternate" type="application/atom+xml" title="Deutscher Perl-Workshop 2019"
-          href="https://act.perlconference.org/gpw2019/atom/de.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Deutscher Perl-Workshop 2021"
+          href="https://act.yapc.eu/gpw2021/atom/de.xml" />
 
 
   	<!-- Latest compiled and minified CSS -->
@@ -44,11 +44,11 @@
 {
   "@context": "http://www.schema.org",
   "@type": "Event",
-  "name": "Deutscher Perl-Workshop, München 2020",
-  "url": "https://act.perlconference.org/gpw2020/",
+  "name": "Deutscher Perl-Workshop, Leipzig 2021",
+  "url": "https://act.yapc.eu/gpw2021/",
   "description": "Der Deutsche Perl-Workshop ist eine jährlich in Deutschland stattfindende Konferenz von und für Entwickler der Programmiersprache Perl.",
-  "startDate": "2020-03-04T09:30",
-  "endDate": "2020-03-06T19:00"
+  "startDate": "2021-03-24T09:30",
+  "endDate": "2021-03-26T19:00"
   //"endDate": "2020-03-06T19:00",
   //"location": {
   //  "@type": "Place",
@@ -99,9 +99,9 @@
 
     <header id="header" class="block rowx">
       <div class="headerContent col-xs-12 no-float">
-        <a class="homelink clearfixafter" href="index.html" title="Deutscher Perl-Workshop">
+        <a class="homelink clearfixafter" href="index.html" title="Deutscher Perl/Raku-Workshop">
           <div id="logo" class="col-xs-3"></div>
-          <h1 id="site_name" class="col-xs-7">Deutscher Perl-Workshop</h1>
+          <h1 id="site_name" class="col-xs-7">Deutscher Perl/Raku-Workshop</h1>
         </a>
       </div>
 
