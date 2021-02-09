@@ -3,7 +3,6 @@
 use Mojolicious::Lite;
 use Mojo::File qw(path);
 use Encode;
-use XML::RSS;
 
 plugin 'JSONConfig';
 

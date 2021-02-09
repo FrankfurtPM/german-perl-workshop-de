@@ -10,7 +10,6 @@ use Mojo::Date;
 use Mojo::File qw(curfile);
 use Mojo::UserAgent;
 use Mojo::Template;
-use Data::Printer;
 use Time::Piece;
 use XML::RSS;
 
