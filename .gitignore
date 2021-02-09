@@ -1,2 +1,4 @@
 *.sw*
 gpw.json
+/static/news.html
+/public/news.rss

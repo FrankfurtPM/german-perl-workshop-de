@@ -3,12 +3,13 @@
 use Mojolicious::Lite;
 use Mojo::File qw(path);
 use Encode;
+use XML::RSS;
 
 plugin 'JSONConfig';
 
 app->secrets( app->config('secrets') // ['german-perl-workshop-secrets'] );
 
-my $static_path  = path( app->home )->child('static');
+my $static_path  = app->home->child('static');
 my %static_pages = map{
      my $key = $_->basename;
      $key =~ s/\.html\z//;
@@ -26,6 +27,15 @@ helper all_years => sub {
 get '/' => sub {
     my $c = shift;
     return _render_static( $c, 'index' );
+};
+
+get '/rss' => sub {
+    my ($c) = shift;
+
+    return $c->render(
+        data => app->home->child('public', 'news.rss')->slurp,
+        format => 'xml',
+    );
 };
 
 get '/:static' => [ static => [keys %static_pages] ] => sub {
