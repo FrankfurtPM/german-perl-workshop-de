@@ -22,8 +22,15 @@ my $current_year = $now->year;
 
 my @news_items;
 
+YEAR:
 for my $year ( reverse $current_year-2 .. $current_year ) {
     my $tx = $ua->get('https://act.yapc.eu/gpw' . $year . '/news');
+
+    if ( $tx->error ) {
+        print "ERROR: Cannot get news for $year! " . $tx->error;
+        next YEAR;
+    }
+
     my $heads = $tx->res->dom->find(".newsbox>h3");
 
     $heads->each( sub {
