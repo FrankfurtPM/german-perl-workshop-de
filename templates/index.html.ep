@@ -10,21 +10,21 @@
     <meta name="keywords"         content="Perl,Workshop,Konferenz,Deutschland,Entwickler,Programmiersprache">
     <meta name="author"           content="Frankfurt.pm, Renee Baecker">
 
-    <link rel="canonical" href="http://act.perlconference.org/gpw2019/">
+    <link rel="canonical" href="http://act.yapc.eu/gpw2021/">
     <!-- Document Metadata -->
     <!--
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:image" content="https://act.perlconference.org/gpw2019/images/logos/lrg-conf-logo.png"/>
     -->
-    <meta property="og:title" content="Deutscher Perl-Workshop 2021" />
+    <meta property="og:title" content="Deutscher Perl-Workshop 2022" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://act.yapc.eu/gpw2021" />
+    <meta property="og:url" content="https://act.yapc.eu/gpw2022" />
     <!--
     <meta property="og:image" content="https://act.perlconference.org/gpw2019/images/logos/lrg-conf-logo.png" />
     -->
     <!-- OpenId -->  <!-- Atom news feed -->
-    <link rel="alternate" type="application/atom+xml" title="Deutscher Perl-Workshop 2021"
-          href="https://act.yapc.eu/gpw2021/atom/de.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Deutscher Perl-Workshop 2022"
+          href="https://perl-workshop.de/rss" />
 
 
   	<!-- Latest compiled and minified CSS -->
@@ -44,11 +44,11 @@
 {
   "@context": "http://www.schema.org",
   "@type": "Event",
-  "name": "Deutscher Perl-Workshop, Leipzig 2021",
-  "url": "https://act.yapc.eu/gpw2021/",
+  "name": "Deutscher Perl-Workshop, Leipzig 2022",
+  "url": "https://act.yapc.eu/gpw2022/",
   "description": "Der Deutsche Perl-Workshop ist eine jährlich in Deutschland stattfindende Konferenz von und für Entwickler der Programmiersprache Perl.",
-  "startDate": "2021-03-24T09:30",
-  "endDate": "2021-03-26T19:00"
+  "startDate": "2022-03-30T09:30",
+  "endDate": "2021-04-01T19:00"
   //"endDate": "2020-03-06T19:00",
   //"location": {
   //  "@type": "Place",
@@ -70,19 +70,19 @@
     "offers": [{
       "@type": "Offer",
       "description": "Ticket",
-      "url": "https://act.perlconference.org/gpw2020/pricing.html",
-      "price": "150",
+      "url": "https://act.perlconference.org/gpw2022/pricing.html",
+      "price": "75",
       "priceCurrency": "EUR"
     },{
       "@type": "Offer",
       "description": "Firmenticket",
-      "url": "https://act.perlconference.org/gpw2020/pricing.html",
-      "price": "350",
+      "url": "https://act.perlconference.org/gpw2022/pricing.html",
+      "price": "250",
       "priceCurrency": "EUR"
     },{
       "@type": "Offer",
       "description": "Studententicket",
-      "url": "https://act.perlconference.org/gpw2020/pricing.html",
+      "url": "https://act.perlconference.org/gpw2022/pricing.html",
       "price": "50",
       "priceCurrency": "EUR"
     }]
@@ -111,7 +111,7 @@
       	<div class="elemWrapper">
 
 
-          <nav id="navtop" class="navbar navbar-default navbar-inverse gpw navbar-fixed-topx navbar-static-top bootstrap hiddenx" role="navigation"> <div class="container-fluid"> <div class="navbar-header clearfixafter"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gpwNavbar"> <span class="sr-only">Navigation ein-/ausschalten</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand hidden-xs hidden-sm hidden-md hidden-lg" href="index.html" title="Startseite Deutscher Perl-Workshop 2017"> <span class="sitetitle">Deutscher Perl-Workshop</span></div> <div class="collapse navbar-collapse" id="gpwNavbar"> <ul class="nav navbar-nav"> <li class="hidden-smx hidden-md hidden-lg activex start first lv1"> <a href="/" title="Startseite"> Startseite </a> </li> <li class="workshop lv1"> <a href="/"> Workshop </a> <li class="dropdown sponsoring lv1"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"> <span class="visible-sm-inline-block visible-md-inline-block">Sponsoring</span><span class="hidden-sm hidden-md">Unterstützen/Sponsoren</span> <span class="caret"></span> </a> <ul class="dropdown-menu"> <li><a href="sponsoring.html">Sponsor werden</a></li><!--Unterstützen/Sponsoring--> <li><a href="sponsors.html">Workshop Sponsoren</a></li> </ul> </li>
+          <nav id="navtop" class="navbar navbar-default navbar-inverse gpw navbar-fixed-topx navbar-static-top bootstrap hiddenx" role="navigation"> <div class="container-fluid"> <div class="navbar-header clearfixafter"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#gpwNavbar"> <span class="sr-only">Navigation ein-/ausschalten</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand hidden-xs hidden-sm hidden-md hidden-lg" href="index.html" title="Startseite Deutscher Perl-Workshop 2022"> <span class="sitetitle">Deutscher Perl-Workshop</span></div> <div class="collapse navbar-collapse" id="gpwNavbar"> <ul class="nav navbar-nav"> <li class="hidden-smx hidden-md hidden-lg activex start first lv1"> <a href="/" title="Startseite"> Startseite </a> </li> <li class="workshop lv1"> <a href="/"> Workshop </a> <li class="dropdown sponsoring lv1"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);"> <span class="visible-sm-inline-block visible-md-inline-block">Sponsoring</span><span class="hidden-sm hidden-md">Unterstützen/Sponsoren</span> <span class="caret"></span> </a> <ul class="dropdown-menu"> <li><a href="sponsoring.html">Sponsor werden</a></li><!--Unterstützen/Sponsoring--> <li><a href="sponsors.html">Workshop Sponsoren</a></li> </ul> </li>
 <li class="map lv1"><a href="/map">Auf Tour</a></li><li><a href="/news">Neuigkeiten</a></li>
 </ul> <ul class="nav navbar-nav navbar-right"> <%# <li class="langchanger lv1"><!--todo:languagechanger link via perl--> <a href="?language=en"><span class="glyphicon glyphicon-flag"></span> EN</a> </li> %> </ul> </div> </div> </nav>
 
