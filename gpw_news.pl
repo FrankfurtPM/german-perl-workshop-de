@@ -24,7 +24,7 @@ my @news_items;
 
 YEAR:
 for my $year ( reverse $current_year-2 .. $current_year ) {
-    my $tx = $ua->get('https://act.yapc.eu/gpw' . $year . '/news');
+    my $tx = $ua->get('http://act.yapc.eu/gpw' . $year . '/news');
 
     if ( my $err = $tx->error ) {
         print sprintf "ERROR: Cannot get news for %s: %s (%s)! ", $year, $err->{message}, $err->{code};
