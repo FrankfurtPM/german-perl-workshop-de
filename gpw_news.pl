@@ -23,7 +23,7 @@ my $current_year = $now->year;
 my @news_items;
 
 YEAR:
-for my $year ( reverse $current_year-2 .. $current_year ) {
+for my $year ( reverse $current_year-2 .. $current_year+1 ) {
     my $tx = $ua->get('http://act.yapc.eu/gpw' . $year . '/news');
 
     if ( my $err = $tx->error ) {

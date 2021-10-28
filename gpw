@@ -57,11 +57,11 @@ get '/:language/*year' => sub {
 };
 
 any '*' => sub {
-  my $c = shift;
+    my $c = shift;
 
-  log_request( $c );
+    log_request( $c );
 
-  $c->render( json => { success => 1 } );
+    $c->redirect_to('/');
 };
 
 app->start;

@@ -1,4 +1,5 @@
 *.sw*
+*.bak
 gpw.json
 /static/news.html
 /public/news.rss

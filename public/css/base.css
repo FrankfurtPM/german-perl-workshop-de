@@ -14,6 +14,9 @@ body.no-fixed-header {
 body.fixed-header {
   padding-top:50px;
 }
+p {
+  font-size: 10pt;
+}
 @media (min-width: 768px) {
 }
 @media(min-width: 992px) {
