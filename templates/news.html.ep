@@ -1,0 +1,8 @@
+		<h2>News</h2>
+% for my $news_item ( @{$news} ) {
+      <h3><%= $news_item->{title} %></h3>
+      <p><%= $news_item->{date} %> (<%= $news_item->{author} %>)</p>
+      <%= $news_item->{text} %>      
+% }
+
+ 

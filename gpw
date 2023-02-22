@@ -8,7 +8,7 @@ plugin 'JSONConfig';
 
 app->secrets( app->config('secrets') // ['german-perl-workshop-secrets'] );
 
-my $static_path  = path( app->home )->child('static');
+my $static_path  = app->home->child('static');
 my %static_pages = map{
      my $key = $_->basename;
      $key =~ s/\.html\z//;
@@ -26,6 +26,15 @@ helper all_years => sub {
 get '/' => sub {
     my $c = shift;
     return _render_static( $c, 'index' );
+};
+
+get '/rss' => sub {
+    my ($c) = shift;
+
+    return $c->render(
+        data => app->home->child('public', 'news.rss')->slurp,
+        format => 'xml',
+    );
 };
 
 get '/:static' => [ static => [keys %static_pages] ] => sub {
@@ -48,11 +57,11 @@ get '/:language/*year' => sub {
 };
 
 any '*' => sub {
-  my $c = shift;
+    my $c = shift;
 
-  log_request( $c );
+    log_request( $c );
 
-  $c->render( json => { success => 1 } );
+    $c->redirect_to('/');
 };
 
 app->start;
