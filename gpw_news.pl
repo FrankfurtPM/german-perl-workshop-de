@@ -24,7 +24,8 @@ my @news_items;
 
 YEAR:
 for my $year ( reverse $current_year-2 .. $current_year+1 ) {
-    my $tx = $ua->get('http://act.yapc.eu/gpw' . $year . '/news');
+    my $base = 'http://act.yapc.eu/gpw' . $year;
+    my $tx   = $ua->get( $base . '/news');
 
     if ( my $err = $tx->error ) {
         print sprintf "ERROR: Cannot get news for %s: %s (%s)! ", $year, $err->{message}, $err->{code};
@@ -37,6 +38,8 @@ for my $year ( reverse $current_year-2 .. $current_year+1 ) {
         my $title_node = $_->find('a')->first;
         my $title      = $title_node->text;
         my $link       = $title_node->attr('href');
+
+        $link =~ s{^/}{$base/};
 
         my $date_author = $_->next;
         my ($d,$m,$y)   = $date_author->content =~ m{([0-9]+)/([0-9]+)/([0-9]+)};
