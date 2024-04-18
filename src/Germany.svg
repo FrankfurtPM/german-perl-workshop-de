@@ -2,14 +2,6 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="Ebene_1"
    x="0px"
@@ -19,14 +11,22 @@
    viewBox="0 0 595.27502 841.89001"
    enable-background="new 0 0 595.275 841.89"
    xml:space="preserve"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="Germany.svg"
    inkscape:export-filename="/home/reneeb/dev/git/PerlMongers/german-perl-workshop-de/public/images/Deutschland.png"
    inkscape:export-xdpi="89.944458"
-   inkscape:export-ydpi="89.944458"><metadata
+   inkscape:export-ydpi="89.944458"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><metadata
    id="metadata4650"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
    id="defs4648" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -37,16 +37,17 @@
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
    inkscape:window-width="1920"
-   inkscape:window-height="1020"
+   inkscape:window-height="1151"
    id="namedview4646"
    showgrid="false"
    inkscape:zoom="0.99300382"
-   inkscape:cx="319.28899"
-   inkscape:cy="450.14933"
+   inkscape:cx="319.23341"
+   inkscape:cy="451.15637"
    inkscape:window-x="0"
-   inkscape:window-y="36"
+   inkscape:window-y="25"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Ebene_1" /><g
+   inkscape:current-layer="Ebene_1"
+   inkscape:pagecheckerboard="0" /><g
    id="g4014"><path
      d="M 442.658,126.267"
      id="path4016"
@@ -656,6 +657,22 @@
    preserveAspectRatio="none"
    height="32.000004"
    width="32.000004" /><image
+   y="482.48752"
+   x="221.43727"
+   id="image4750-1-61-2"
+   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAjlJREFU WIWtl1uShCAMRW+7pbsnXBPsKWvq+YiBoEGga1LVNeoAOYl5+fl+v18siohcv3ZPAgABACRB6t9V +awAlFI6xTNRiISU5iCvAKUUlDLWShLyQkUCKaVXj4QAInJZPdy3BODX5ZzC/x2/KveHz0REcJ5l DrCrfEdGEB3Af1seQZTSQ1SA89xVLtc1sMNSinRxcxjZSjCZQt3Trsm0CdG8cBjVmnKCTBARpMQL gtf9OoQIqsHVAzNJSQuL0fsU1OdS16yIGX3MrCeBnNU6i+KUUj1AvUIHx7r+TaoH3isZkXMG0JRb vdc+wMdajXRBznnqDRHBYdEcK09d/toz/xruokp1z+yViADHyAG20UesBl5rSpGb9XU08LdecHkg Vk7yyll7lq5nZv24GFlcWHqP+gAQ9AI7QAnH1tsMMJLmQenulwF6Vz83z0pxM8KINwBGstukPEQc L8DxS1NZFZ/iETzJGOCe477x/CK+eQUAzw33NLPa7aFm5duX6Wi9HXVYyvSbW8k1eUbzGsA9nRuA nn30h9pmLb0eznK63Y+9YOW4Wd8PITqssgHEXtDpRRtLXxXbwbH1pUitiJH13rPdVHyeZ+Aq1iKk B+OaCRTGmlU7o9QqGY149wm5A3ibXtVqQqTUacgXqr58xxNWNJ4/vgveIPSQPku8nvv9TDkQVEJb OMr5vjzTXe8rByafZjopR67E4zXEiuffiNOPUwu+1am5KWYX7T8DePEgHsg+0U3xTn/5A3/TzxKa r0mfAAAAAElFTkSuQmCC "
+   style="image-rendering:optimizeQuality"
+   preserveAspectRatio="none"
+   height="32.000004"
+   width="32.000004" /><image
+   y="482.48752"
+   x="244.06227"
+   id="image4750-1-61-0"
+   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAjlJREFU WIWtl1uShCAMRW+7pbsnXBPsKWvq+YiBoEGga1LVNeoAOYl5+fl+v18siohcv3ZPAgABACRB6t9V +awAlFI6xTNRiISU5iCvAKUUlDLWShLyQkUCKaVXj4QAInJZPdy3BODX5ZzC/x2/KveHz0REcJ5l DrCrfEdGEB3Af1seQZTSQ1SA89xVLtc1sMNSinRxcxjZSjCZQt3Trsm0CdG8cBjVmnKCTBARpMQL gtf9OoQIqsHVAzNJSQuL0fsU1OdS16yIGX3MrCeBnNU6i+KUUj1AvUIHx7r+TaoH3isZkXMG0JRb vdc+wMdajXRBznnqDRHBYdEcK09d/toz/xruokp1z+yViADHyAG20UesBl5rSpGb9XU08LdecHkg Vk7yyll7lq5nZv24GFlcWHqP+gAQ9AI7QAnH1tsMMJLmQenulwF6Vz83z0pxM8KINwBGstukPEQc L8DxS1NZFZ/iETzJGOCe477x/CK+eQUAzw33NLPa7aFm5duX6Wi9HXVYyvSbW8k1eUbzGsA9nRuA nn30h9pmLb0eznK63Y+9YOW4Wd8PITqssgHEXtDpRRtLXxXbwbH1pUitiJH13rPdVHyeZ+Aq1iKk B+OaCRTGmlU7o9QqGY149wm5A3ibXtVqQqTUacgXqr58xxNWNJ4/vgveIPSQPku8nvv9TDkQVEJb OMr5vjzTXe8rByafZjopR67E4zXEiuffiNOPUwu+1am5KWYX7T8DePEgHsg+0U3xTn/5A3/TzxKa r0mfAAAAAElFTkSuQmCC "
+   style="image-rendering:optimizeQuality"
+   preserveAspectRatio="none"
+   height="32.000004"
+   width="32.000004" /><image
    y="410.22"
    x="446.51898"
    id="image4750-1-4"
@@ -681,7 +698,7 @@
    height="32.000004"
    width="32.000004" /><text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="351.76364"
    y="720.5799"
    id="text4684-4-8"><tspan
@@ -689,11 +706,11 @@
      id="tspan4686-6-1"
      x="351.76364"
      y="720.5799"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">München</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">München</tspan></text>
 
 <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="171.43956"
    y="674.31879"
    id="text4684-4-2"><tspan
@@ -701,7 +718,7 @@
      id="tspan4686-6-17"
      x="171.43956"
      y="674.31879"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Schorndorf</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Schorndorf</tspan></text>
 
 <image
    y="167.832"
@@ -713,7 +730,7 @@
    height="32.000004"
    width="32.000004" /><text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="216.46144"
    y="218.94188"
    id="text4684-4-0-4-0"><tspan
@@ -721,7 +738,7 @@
      id="tspan4686-6-6-0-2"
      x="216.46144"
      y="218.94188"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Hamburg</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Hamburg</tspan></text>
 
 <image
    y="407.6514"
@@ -749,7 +766,7 @@
    height="32.000004"
    width="32.000004" /><text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="182.31418"
    y="312.7865"
    id="text4684-4-0-4-0-5"><tspan
@@ -757,11 +774,11 @@
      id="tspan4686-6-6-0-2-2"
      x="182.31418"
      y="312.7865"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Hannover</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Hannover</tspan></text>
 
 <text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="64.755684"
    y="471.25208"
    id="text4684-4-0-4-0-5-3"><tspan
@@ -769,7 +786,7 @@
      id="tspan4686-6-6-0-2-2-7"
      x="64.755684"
      y="471.25208"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Bonn</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Bonn</tspan></text>
 
 <image
    y="398.30994"
@@ -781,7 +798,7 @@
    height="32.000004"
    width="32.000004" /><text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="136.40819"
    y="364.79227"
    id="text4684-4-0-4-0-5-3-7"><tspan
@@ -789,7 +806,7 @@
      id="tspan4686-6-6-0-2-2-7-4"
      x="136.40819"
      y="364.79227"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Bochum</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Bochum</tspan></text>
 
 <image
    y="416.14838"
@@ -833,7 +850,7 @@
    height="32.000004"
    width="32.000004" /><text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="182.29039"
    y="428.57321"
    id="text4684-4-0-4-0-5-3-7-0"><tspan
@@ -841,7 +858,7 @@
      id="tspan4686-6-6-0-2-2-7-4-4"
      x="182.29039"
      y="428.57321"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Gummersbach</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Gummersbach</tspan></text>
 
 <image
    y="414.26016"
@@ -853,7 +870,7 @@
    height="32.000004"
    width="32.000004" /><text
    xml:space="preserve"
-   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+   style="font-style:normal;font-weight:normal;font-size:12px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
    x="356.85364"
    y="406.87881"
    id="text4684-4-0-9"><tspan
@@ -861,5 +878,5 @@
      id="tspan4686-6-6-1"
      x="356.85364"
      y="406.87881"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1.00000012px">Leipzig</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:20px;line-height:1.25;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Bold';stroke-width:1px">Leipzig</tspan></text>
 </svg>
